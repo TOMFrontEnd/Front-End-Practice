@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <! 两种输出方式都可以实时显示， F12 打开控制台 CHROME
+//; 不可缺少, html  注释仅仅这一种>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeclare Let FUNCTION</title>
+</head>
+
+<body>
+    <h2> LET 仅仅作用域为块，就是大括号里面而已</h2>
+    <p id="demo"></p>
+    <script>
+        let x = 10;
+        { let x = 2; }
+        document.getElementById("demo").innerHTML=x;
+        console.log(x);
+    </script>
+</body>
+
+</html>
