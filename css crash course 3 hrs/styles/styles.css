@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+
+body{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    background-image: url(images);
+    max-width: 600px;
+    margin:auto;
+    /* 利用这个方法，依旧可以设置为居中,下面为设置居中 */
+     line-height: 2.3em; 
+    padding-top: 10px;
+/* background-image: url("../images/moroccan-flower.png"); */
+}
+
+
+
+h1 {
+    color: green;
+}
+
+h1 a {
+    color: red;
+}
+
+h2 a:hover {
+    color: rgb(43, 255, 0);
+}
+
+.chessboard{
+    border-radius: 30px;
+}
+
+.mate-in-one:hover{
+    /* border-radius: 30px; */
+    box-shadow: 5px 10px orange;
+}
+
+#firstul {
+    list-style-type: none;
+    margin         : 0;
+    padding        : 0;
+    overflow       : hidden；
+    background-color: #333;
+}
+
+li.a{
+    float:left;
+}
+
+
+
+ul li a{
+    display:block;
+    color:pink  ;
+    text-decoration: none;
+    text-align: center;
+    padding 14px 16px;
+    }
+
+button:hover{
+    color:orange
+}

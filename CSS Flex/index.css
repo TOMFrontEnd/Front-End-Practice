@@ -1,0 +1,29 @@
+.container{
+    border:5px solid #ffcc5c;
+    display: flex;
+    flex-direction:row    ;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.container div{
+    margin:10px;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+}
+
+.item1{
+    background-color:brown;
+    order: 1;
+}
+
+.item2{
+    background-color:purple;
+    order:3;
+    
+}
+
+.item3{
+    background-color:black;
+}
